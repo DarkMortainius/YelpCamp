@@ -34,7 +34,7 @@ const seedDB = async () =>
                 ],
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iusto reprehenderit rem corrupti. Voluptatum voluptate doloribus eveniet pariatur aliquid, quibusdam, quae rerum, facere iste dicta id. Nostrum delectus voluptatum fuga.',
             price,
-            author: '62740fd2003f146e870255f3',
+            author: '627ae11ef5be1c20adb07e0e',
             geometry: {
                 type: 'Point',
                 coordinates: [

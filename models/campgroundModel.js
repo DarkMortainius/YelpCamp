@@ -48,7 +48,7 @@ const CampgroundSchema = new Schema({
 
 CampgroundSchema.virtual('properties.popUpMarkup').get(function ()
 {
-    const thumbnail = "https://res.cloudinary.com/dhciyldzx/image/upload/v1651605296/YelpCamp/No_image_available_uvjjil.png";
+    let thumbnail = "https://res.cloudinary.com/dhciyldzx/image/upload/v1651605296/YelpCamp/No_image_available_uvjjil.png";
     if (this.images.length !== 0)
     {
         thumbnail = this.images[0].thumbnail;
